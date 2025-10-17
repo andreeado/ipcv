@@ -8,8 +8,8 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=8G
 #SBATCH --partition=rtx2080
-#SBATCH --output=output_bench.txt
-#SBATCH --chdir=/home/students/leonardo.massaro2/ipcv_folder
+#SBATCH --output=stdout_job.log
+#SBATCH --chdir=/home/students/leonardo.massaro2/ipcv_folder/ipcv
 #SBATCH --gres=gpu:1
 
 source /scratch.hpc/leomass/ipcv_venv/bin/activate
