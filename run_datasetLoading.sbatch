@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=part2a_job
+#SBATCH --job-name=dsLoadingJob
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=leonardo.massaro2@studio.unibo.it
 #SBATCH --time=01:00:00
@@ -14,5 +14,5 @@
 
 source /scratch.hpc/leomass/ipcv_venv/bin/activate
 which python3
-jupyter execute /home/students/leonardo.massaro2/ipcv_folder/ipcv/FirstNet.ipynb --output /home/students/leonardo.massaro2/ipcv_folder/ipcv/output/FirstNet.ipynb --kernel python3
+jupyter execute /home/students/leonardo.massaro2/ipcv_folder/ipcv/DatasetLoading_bench.ipynb --output /home/students/leonardo.massaro2/ipcv_folder/ipcv/output/DatasetLoading_bench.ipynb --kernel python3
 
