@@ -6,7 +6,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=4
-#SBATCH --mem=12G
+#SBATCH --mem=15G
 #SBATCH --partition=rtx2080
 #SBATCH --output=stdout_job.log
 #SBATCH --chdir=/home/students/leonardo.massaro2/ipcv_folder/ipcv
@@ -14,5 +14,5 @@
 
 source /scratch.hpc/leomass/ipcv_venv/bin/activate
 which python3
-jupyter execute /home/students/leonardo.massaro2/ipcv_folder/ipcv/FirstNet.ipynb --output /home/students/leonardo.massaro2/ipcv_folder/ipcv/output/FirstNet.ipynb --kernel python3
+jupyter execute /home/students/leonardo.massaro2/ipcv_folder/ipcv/FirstNet.ipynb --output /home/students/leonardo.massaro2/ipcv_folder/ipcv/output/FirstNet_$(date).ipynb --kernel python3
 
