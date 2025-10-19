@@ -14,5 +14,5 @@
 
 source /scratch.hpc/leomass/ipcv_venv/bin/activate
 which python3
-jupyter execute /home/students/leonardo.massaro2/ipcv_folder/ipcv/DatasetLoading_bench.ipynb --output /home/students/leonardo.massaro2/ipcv_folder/ipcv/output/DatasetLoading_bench.ipynb --kernel python3
+jupyter execute /home/students/leonardo.massaro2/ipcv_folder/ipcv/DatasetLoading_bench.ipynb --output /home/students/leonardo.massaro2/ipcv_folder/ipcv/output/DatasetLoading_bench_$(date +"%Y%m%d_%H%M%S").ipynb --kernel python3
 
