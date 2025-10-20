@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=part2a_rtx
+#SBATCH --job-name=part2a_l40
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=leonardo.massaro2@studio.unibo.it
 #SBATCH --time=01:00:00
@@ -7,7 +7,7 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=15G
-#SBATCH --partition=rtx2080
+#SBATCH --partition=l40
 #SBATCH --output=stdout_job.log
 #SBATCH --chdir=/home/students/leonardo.massaro2/ipcv_folder/ipcv
 #SBATCH --gres=gpu:1
