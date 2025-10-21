@@ -2,7 +2,7 @@
 #SBATCH --job-name=part2a_rtx
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=leonardo.massaro2@studio.unibo.it
-#SBATCH --time=01:00:00
+#SBATCH --time=05:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=4
