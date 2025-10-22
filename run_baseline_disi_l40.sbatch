@@ -12,7 +12,7 @@
 #SBATCH --chdir=/home/students/leonardo.massaro2/ipcv_folder/ipcv
 #SBATCH --gres=gpu:1
 
-source /scratch.hpc/leomass/ipcv_venv/bin/activate
+source /scratch.hpc/leonardo.massaro2/ipcv_venv/bin/activate
 which python3
-jupyter execute /home/students/leonardo.massaro2/ipcv_folder/ipcv/baselines.ipynb --output /home/students/leonardo.massaro2/ipcv_folder/ipcv/output/baselines_$(date +"%Y%m%d_%H%M%S").ipynb --kernel python3
+jupyter execute /home/students/leonardo.massaro2/ipcv/baselines.ipynb --output /home/students/leonardo.massaro2/ipcv/output/baselines_$(date +"%Y%m%d_%H%M%S").ipynb --kernel python3
 
