@@ -9,7 +9,7 @@
 #SBATCH --mem=15G
 #SBATCH --partition=l40
 #SBATCH --output=stdout_job.log
-#SBATCH --chdir=/home/students/leonardo.massaro2/ipcv_folder/ipcv
+#SBATCH --chdir=/home/students/leonardo.massaro2/ipcv
 #SBATCH --gres=gpu:1
 
 source /scratch.hpc/leonardo.massaro2/ipcv_venv/bin/activate
