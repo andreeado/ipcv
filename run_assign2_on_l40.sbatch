@@ -7,7 +7,7 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=15G
-#SBATCH --partition=l40s
+#SBATCH --partition=l40
 #SBATCH --output=stdout_job.log
 #SBATCH --chdir=/home/students/leonardo.massaro2/ipcv_folder/ipcv
 #SBATCH --gres=gpu:1
