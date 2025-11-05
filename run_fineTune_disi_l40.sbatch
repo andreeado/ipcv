@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=baseline_l40
+#SBATCH --job-name=fTune
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=leonardo.massaro2@studio.unibo.it
 #SBATCH --time=05:00:00
@@ -9,10 +9,10 @@
 #SBATCH --mem=15G
 #SBATCH --partition=l40
 #SBATCH --output=stdout_job.log
-#SBATCH --chdir=/home/students/leonardo.massaro2/ipcv_folder/ipcv
+#SBATCH --chdir=/home/students/leonardo.massaro2/ipcv
 #SBATCH --gres=gpu:1
 
 source /scratch.hpc/leonardo.massaro2/ipcv_venv/bin/activate
 which python3
-jupyter execute /home/students/leonardo.massaro2/ipcv/baselines.ipynb --output /home/students/leonardo.massaro2/ipcv/output/baselines_$(date +"%Y%m%d_%H%M%S").ipynb --kernel python3
+jupyter execute /home/students/leonardo.massaro2/ipcv/FineTune.ipynb --output /home/students/leonardo.massaro2/ipcv/output/FineTune_$(date +"%Y%m%d_%H%M%S").ipynb --kernel python3
 
