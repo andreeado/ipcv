@@ -14,5 +14,5 @@
 
 source /scratch.hpc/leonardo.massaro2/ipcv_venv/bin/activate
 which python3
-jupyter execute /home/students/leonardo.massaro2/ipcv/FineTune.ipynb --output /home/students/leonardo.massaro2/ipcv/output/FineTune_$(date +"%Y%m%d_%H%M%S").ipynb --kernel python3
+jupyter execute /home/students/leonardo.massaro2/ipcv/FineTune2.ipynb --output /home/students/leonardo.massaro2/ipcv/output/FineTune2_$(date +"%Y%m%d_%H%M%S").ipynb --kernel python3
 
