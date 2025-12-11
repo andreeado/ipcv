@@ -2,3 +2,4 @@
 !**/output/.gitkeep
 **/data/**
 *.log
+**/ipcv-assignment-2/**
