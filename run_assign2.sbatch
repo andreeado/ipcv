@@ -15,3 +15,4 @@
 source /scratch.hpc/leonardo.massaro2/ipcv_venv/bin/activate
 which python3
 jupyter execute /scratch.hpc/leonardo.massaro2/ipcv/assigment_2_final.ipynb --output /scratch.hpc/leonardo.massaro2/ipcv/output.ipynb
+
