@@ -3,3 +3,5 @@
 **/data/**
 *.log
 **/ipcv-assignment-2/**
+**/.DS_Store
+**/dataset/**
