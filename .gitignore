@@ -2,3 +2,5 @@
 !**/output/.gitkeep
 **/data/**
 *.log
+**/.DS_Store
+**/dataset/**
